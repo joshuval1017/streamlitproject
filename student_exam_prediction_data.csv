@@ -1,0 +1,1001 @@
+Student_ID,Age,Gender,Previous_Exam_Scores,Assignment_Grades,Attendance (%),Study_Hours_per_Week,Participation_in_Class,Motivation_Level (1-10),Stress_Level (1-10),Socioeconomic_Status,Parental_Education,Involved_in_Extracurriculars,Sleep_Hours_per_Night,Peer_Average_Grade,Passed_Final_Exam
+1,18,M,66,94,100,5,High,9,3,High,Graduate,Yes,6,57,No
+2,16,M,89,73,52,20,High,10,2,Low,Graduate,No,5,80,Yes
+3,18,M,80,84,91,20,High,9,1,Middle,Some College,No,9,61,No
+4,18,M,83,73,83,10,High,6,10,Low,Graduate,No,7,97,No
+5,16,F,73,66,81,13,High,3,2,Middle,High School,Yes,7,80,No
+6,16,M,94,54,94,15,Low,1,6,Low,Graduate,Yes,6,93,Yes
+7,18,F,84,69,100,8,Low,4,8,High,College,No,8,68,No
+8,17,F,97,70,98,15,Low,3,3,High,College,No,6,59,Yes
+9,18,M,55,89,70,16,Medium,1,9,Middle,Some College,No,5,88,No
+10,18,F,68,80,95,6,High,3,9,Middle,High School,Yes,8,61,No
+11,18,F,79,95,93,17,Low,4,2,Low,College,No,7,69,Yes
+12,18,F,56,85,70,8,Medium,8,8,Middle,Graduate,Yes,9,86,No
+13,16,F,59,60,93,5,Low,9,10,Low,College,No,9,97,No
+14,18,M,90,64,60,7,Low,3,5,Middle,College,Yes,5,90,Yes
+15,17,F,81,68,88,14,High,6,4,Middle,Some College,No,6,56,No
+16,16,M,83,56,53,13,Medium,10,10,Middle,Graduate,Yes,5,63,No
+17,17,F,77,77,100,14,High,5,5,High,Graduate,Yes,9,60,No
+18,17,F,64,92,50,9,High,6,4,High,Graduate,Yes,7,56,No
+19,17,M,79,54,77,19,Low,4,8,Low,Some College,Yes,9,78,Yes
+20,17,F,86,54,73,15,High,10,4,Middle,Graduate,Yes,8,59,No
+21,16,F,78,79,84,10,Medium,6,10,Low,Graduate,Yes,9,78,No
+22,16,F,71,81,62,7,High,7,6,Middle,College,No,9,58,No
+23,17,M,53,57,96,20,High,9,2,High,College,No,8,85,No
+24,17,F,69,59,83,9,High,10,5,High,Graduate,No,6,97,No
+25,16,M,81,87,60,15,Low,7,6,Middle,High School,No,9,59,No
+26,16,F,85,96,85,12,Medium,6,5,Middle,High School,Yes,5,68,No
+27,16,M,99,81,100,10,Low,1,2,High,Graduate,No,9,80,No
+28,18,M,53,97,66,8,Low,2,7,High,High School,Yes,5,66,Yes
+29,18,F,76,77,84,6,Low,1,4,Low,Some College,Yes,8,58,Yes
+30,18,F,66,66,67,18,Low,9,8,High,College,Yes,9,94,Yes
+31,17,M,61,80,89,13,Low,10,7,Middle,Some College,No,8,82,Yes
+32,18,M,71,57,71,17,Medium,10,7,Low,College,Yes,8,83,No
+33,17,F,66,89,73,16,High,9,9,Middle,High School,No,6,94,No
+34,17,M,59,74,68,5,Low,7,1,Low,High School,No,9,73,Yes
+35,18,F,50,58,86,5,Low,2,10,Middle,Graduate,No,5,58,Yes
+36,17,F,71,51,88,17,Medium,6,6,High,High School,No,5,56,Yes
+37,18,F,75,64,70,8,Medium,4,6,Middle,High School,No,9,65,No
+38,18,F,67,99,57,11,High,1,6,Low,Graduate,Yes,6,68,No
+39,16,M,99,52,77,5,Medium,1,6,Middle,Graduate,Yes,6,88,Yes
+40,18,F,63,98,54,13,High,5,10,Low,College,No,6,55,Yes
+41,16,M,96,85,66,8,Low,2,7,Middle,High School,Yes,5,99,Yes
+42,18,F,78,53,86,7,Low,4,10,High,College,No,8,60,Yes
+43,18,M,61,63,85,5,High,1,6,High,College,Yes,6,61,Yes
+44,16,F,85,90,68,14,Medium,4,1,Middle,Some College,Yes,5,91,No
+45,16,M,84,90,76,8,High,6,3,Middle,High School,Yes,5,62,Yes
+46,18,M,61,74,83,13,Medium,10,2,Middle,High School,Yes,8,61,No
+47,17,F,56,99,60,17,Low,4,6,Low,Some College,Yes,9,70,Yes
+48,16,F,78,59,94,18,Medium,1,8,Middle,College,Yes,9,59,Yes
+49,17,F,60,70,96,14,High,7,3,Middle,High School,Yes,6,69,No
+50,17,F,82,85,61,20,High,2,10,Low,College,Yes,6,99,Yes
+51,17,M,55,61,70,20,Low,9,8,High,Some College,Yes,8,85,No
+52,16,F,96,76,60,10,Medium,3,8,Middle,Graduate,Yes,6,77,No
+53,17,M,64,89,88,20,Medium,8,5,Middle,College,Yes,8,73,Yes
+54,16,M,81,51,77,10,Medium,8,8,High,High School,Yes,5,54,Yes
+55,17,F,60,62,54,5,Low,3,6,High,Graduate,Yes,6,86,No
+56,18,M,72,81,66,14,Medium,4,5,Low,College,No,5,61,No
+57,18,M,75,80,69,6,High,2,9,Middle,College,Yes,7,84,Yes
+58,16,M,83,65,90,15,Medium,4,7,Middle,Graduate,Yes,8,89,No
+59,18,M,95,81,95,10,Low,9,8,Low,Graduate,Yes,7,51,Yes
+60,18,F,83,81,61,6,Medium,2,1,High,Graduate,Yes,6,99,No
+61,17,F,78,83,55,7,Medium,3,2,Low,High School,Yes,5,90,Yes
+62,16,F,53,60,66,8,High,4,8,High,High School,Yes,6,94,No
+63,17,F,66,59,100,15,Medium,5,9,Low,College,No,7,88,No
+64,17,M,84,64,68,9,High,1,4,High,College,No,6,91,Yes
+65,17,M,62,66,75,19,High,7,10,Low,Some College,No,9,58,No
+66,17,F,90,89,97,13,Low,10,10,High,High School,Yes,7,71,No
+67,17,F,88,67,93,16,High,7,9,High,College,Yes,6,96,No
+68,17,F,64,58,93,19,High,9,4,High,Graduate,Yes,5,54,No
+69,17,M,78,74,81,19,Low,4,10,High,Graduate,No,6,61,No
+70,16,F,78,89,55,8,High,6,10,High,High School,Yes,5,50,No
+71,18,F,60,63,85,17,Low,2,10,Middle,Graduate,Yes,9,93,No
+72,17,F,81,74,87,15,Medium,4,9,High,Some College,No,6,71,Yes
+73,17,M,51,99,60,13,Low,2,7,Middle,College,No,9,87,No
+74,17,M,96,71,82,15,High,10,2,High,College,Yes,7,68,No
+75,17,M,63,79,73,14,Low,5,9,Middle,College,Yes,5,65,Yes
+76,17,M,69,69,72,7,High,7,4,Middle,High School,Yes,7,80,No
+77,17,M,71,70,64,12,Medium,1,8,Low,Graduate,Yes,5,52,No
+78,18,M,60,93,76,16,Low,10,7,High,Some College,No,9,72,Yes
+79,18,M,76,81,60,5,Medium,10,7,Low,High School,Yes,8,91,No
+80,17,M,52,95,100,15,High,7,8,Low,College,Yes,6,67,No
+81,18,F,66,98,99,13,High,10,1,High,Some College,No,9,75,Yes
+82,16,F,93,70,66,13,Medium,6,5,Low,College,Yes,5,62,Yes
+83,17,M,77,84,100,14,Low,6,2,High,College,Yes,5,67,No
+84,16,M,78,81,63,6,Low,8,2,Low,High School,No,5,52,No
+85,16,F,70,79,76,8,High,8,1,High,College,No,5,72,Yes
+86,17,M,96,88,67,17,Medium,6,5,High,Some College,Yes,6,52,No
+87,18,M,65,98,77,12,Medium,3,2,High,College,No,7,74,Yes
+88,16,M,86,61,100,11,Low,5,4,Middle,Graduate,No,8,76,Yes
+89,17,F,69,90,96,5,Low,2,3,Low,College,Yes,6,93,Yes
+90,16,F,55,96,96,9,Low,5,3,Middle,High School,No,5,76,No
+91,16,F,68,67,53,11,Medium,9,2,Low,Some College,Yes,6,88,Yes
+92,16,F,54,70,56,19,Low,10,6,Low,High School,Yes,9,74,Yes
+93,16,F,52,62,94,20,Low,1,2,Low,Graduate,Yes,5,73,Yes
+94,18,M,50,70,84,8,High,10,8,Middle,College,Yes,8,57,No
+95,16,F,87,57,97,19,Low,5,8,Low,High School,No,5,58,No
+96,16,M,64,95,58,20,Low,6,5,Middle,High School,Yes,8,95,No
+97,16,M,83,89,57,19,Medium,7,10,High,High School,Yes,8,86,Yes
+98,18,F,84,95,94,5,Medium,9,7,Low,High School,Yes,7,79,No
+99,16,F,98,56,66,13,High,6,4,Low,Graduate,Yes,7,68,No
+100,16,M,74,72,66,18,Low,5,1,High,Graduate,No,6,65,Yes
+101,18,M,73,93,98,9,High,7,2,High,College,No,6,73,Yes
+102,18,M,61,81,82,15,Medium,1,10,Low,College,No,8,93,No
+103,18,F,67,60,81,20,High,5,10,High,Some College,Yes,5,70,No
+104,16,F,64,71,57,6,Medium,2,4,Middle,Graduate,No,9,85,Yes
+105,18,F,93,71,68,12,High,4,1,Middle,High School,No,9,89,No
+106,18,F,65,92,87,15,High,7,8,Low,High School,Yes,5,88,Yes
+107,16,F,76,74,52,17,Low,5,9,Middle,Some College,No,5,96,Yes
+108,18,M,57,71,54,6,High,6,4,Middle,High School,Yes,7,55,No
+109,16,F,95,77,62,7,Low,2,10,Low,Some College,No,9,54,No
+110,17,M,74,78,96,18,Low,3,3,High,College,No,8,63,No
+111,18,M,66,62,95,14,Low,7,2,Low,Graduate,No,6,94,No
+112,17,M,78,67,80,5,Low,2,5,Middle,Some College,No,7,91,Yes
+113,16,F,57,51,65,15,High,6,3,Low,High School,Yes,9,99,No
+114,18,F,64,78,99,20,Medium,5,10,Low,Some College,Yes,5,53,No
+115,16,F,76,70,81,6,Medium,10,7,Middle,College,No,9,57,No
+116,17,M,95,64,71,18,Medium,1,6,Middle,High School,Yes,8,73,Yes
+117,16,M,99,76,78,20,High,10,1,Low,College,No,7,60,No
+118,18,M,56,99,71,11,Low,4,8,Middle,College,No,5,66,No
+119,18,M,52,80,92,14,Medium,2,2,Middle,Some College,No,8,99,Yes
+120,17,M,78,64,52,6,High,4,5,Middle,College,No,6,70,Yes
+121,16,M,93,72,59,10,Low,1,9,Middle,High School,No,7,75,Yes
+122,18,F,73,73,91,19,Medium,2,8,Middle,College,No,8,92,Yes
+123,17,F,52,93,70,7,Low,8,2,Middle,College,Yes,8,97,Yes
+124,18,F,69,62,65,8,Medium,6,9,High,Some College,Yes,5,93,No
+125,18,F,95,71,61,15,Medium,2,5,Low,College,No,6,94,Yes
+126,16,M,64,92,51,19,Medium,6,10,Middle,Graduate,Yes,8,76,Yes
+127,18,M,74,86,90,17,Low,10,6,Low,Some College,No,7,65,Yes
+128,16,F,79,82,73,12,High,9,3,High,Some College,Yes,8,75,Yes
+129,18,M,63,52,84,18,Low,7,3,Middle,High School,Yes,9,82,Yes
+130,17,F,56,68,79,7,Medium,9,10,Low,High School,Yes,7,80,Yes
+131,18,F,66,72,79,14,Low,5,8,Middle,High School,No,7,97,Yes
+132,16,F,93,78,96,10,High,7,10,Middle,High School,Yes,8,96,Yes
+133,16,M,69,79,84,5,Low,7,10,Middle,Graduate,No,5,55,No
+134,17,F,85,88,68,11,High,3,2,Middle,Some College,No,7,93,No
+135,18,F,58,93,99,12,High,7,2,Middle,College,No,9,57,No
+136,18,F,87,96,57,15,Low,1,5,Middle,High School,Yes,5,56,Yes
+137,17,M,97,74,75,18,Medium,9,6,Middle,High School,Yes,5,83,Yes
+138,18,M,71,86,98,12,High,10,2,High,High School,Yes,5,93,Yes
+139,18,F,51,96,89,7,Low,6,5,High,College,No,7,63,No
+140,16,M,73,57,56,18,High,5,7,Middle,High School,No,5,65,Yes
+141,18,M,57,91,79,14,Medium,7,10,Middle,College,Yes,8,92,Yes
+142,18,M,60,65,56,5,Low,5,10,High,Some College,No,5,58,Yes
+143,17,M,62,57,52,13,Low,10,8,High,Some College,Yes,9,59,No
+144,17,M,66,50,50,17,Low,5,7,High,Some College,Yes,6,66,No
+145,16,M,57,93,85,10,Medium,10,8,Middle,Graduate,Yes,9,61,Yes
+146,18,M,70,54,74,15,High,7,9,Low,College,Yes,7,55,No
+147,18,M,67,52,86,13,Low,10,5,Low,High School,No,5,68,Yes
+148,18,M,79,50,50,11,High,7,5,Low,High School,Yes,5,92,Yes
+149,16,M,67,53,64,5,High,3,10,Low,High School,Yes,8,90,No
+150,16,F,95,89,86,16,Medium,3,4,Middle,High School,Yes,5,78,No
+151,17,F,96,84,62,16,Low,10,9,Low,Graduate,Yes,9,55,No
+152,16,M,80,81,89,5,High,3,5,High,High School,Yes,7,74,No
+153,18,F,87,91,57,10,Low,6,2,High,Graduate,Yes,6,73,Yes
+154,18,F,81,83,54,9,Low,6,10,Low,College,Yes,5,74,Yes
+155,16,M,60,92,58,13,Medium,3,8,High,Some College,No,6,65,No
+156,18,M,94,74,50,6,Low,3,7,Middle,High School,No,5,65,No
+157,18,M,74,59,85,12,Low,8,8,Low,Some College,No,7,55,Yes
+158,16,F,82,70,84,15,High,8,3,Low,College,No,9,86,Yes
+159,16,F,87,95,51,9,Medium,7,4,Middle,College,Yes,7,70,Yes
+160,18,M,90,88,89,6,Low,10,5,High,High School,No,6,53,Yes
+161,18,M,57,76,72,17,High,4,6,Middle,College,No,5,83,No
+162,18,M,60,76,58,14,Medium,4,1,Middle,Some College,No,6,77,No
+163,17,F,71,51,83,15,Medium,3,4,High,High School,Yes,9,87,No
+164,17,F,73,90,95,15,High,5,10,Middle,Graduate,No,7,90,Yes
+165,17,F,90,97,63,16,High,3,5,High,High School,No,6,77,Yes
+166,16,F,66,62,53,10,High,8,7,High,Some College,Yes,6,66,No
+167,17,M,61,58,79,14,High,7,5,Middle,High School,No,9,63,No
+168,16,M,95,85,80,12,High,3,1,High,High School,Yes,5,56,No
+169,16,M,81,71,87,8,Low,9,7,Middle,Some College,No,6,71,Yes
+170,17,M,64,91,60,6,Low,5,8,High,High School,Yes,9,50,No
+171,17,F,65,75,84,16,Medium,9,7,Low,High School,No,5,78,Yes
+172,17,F,71,61,57,15,Low,7,4,High,Some College,No,5,80,No
+173,18,M,77,66,52,9,Low,7,8,High,College,No,7,79,No
+174,17,M,69,63,63,19,Low,6,5,Middle,Some College,Yes,9,64,No
+175,18,F,82,63,62,16,High,2,10,High,High School,No,5,67,Yes
+176,16,M,59,83,94,6,Medium,9,9,Low,Graduate,Yes,7,84,Yes
+177,18,F,89,69,81,6,Medium,6,10,Low,Graduate,Yes,8,99,Yes
+178,17,M,81,60,83,19,Medium,8,5,High,Some College,Yes,9,79,Yes
+179,16,M,99,65,94,10,Medium,1,1,High,Graduate,Yes,8,83,Yes
+180,16,M,82,80,68,20,Low,5,9,Low,High School,No,5,91,Yes
+181,16,M,51,55,87,15,Low,1,5,Middle,High School,No,9,60,No
+182,18,M,82,68,65,14,High,10,6,Low,Some College,No,7,76,Yes
+183,17,M,82,86,51,13,Medium,8,4,Low,High School,Yes,5,73,No
+184,16,M,90,53,89,17,Low,8,6,High,College,No,9,84,Yes
+185,16,F,62,96,66,8,Low,1,8,High,High School,Yes,9,88,No
+186,16,F,79,53,83,10,High,9,3,Low,Some College,Yes,8,57,No
+187,18,F,82,69,91,20,High,2,5,Middle,College,Yes,5,67,Yes
+188,18,F,62,59,65,11,High,9,2,Low,College,No,7,62,No
+189,17,F,75,73,87,17,Low,1,2,Low,Graduate,No,7,94,Yes
+190,18,M,71,84,51,15,Low,10,7,Middle,High School,Yes,5,73,Yes
+191,16,M,88,75,51,10,High,9,10,Low,Some College,No,5,72,Yes
+192,17,F,51,86,75,12,Medium,4,10,Low,Graduate,No,6,61,Yes
+193,16,M,87,87,62,8,High,9,10,High,Graduate,Yes,8,98,No
+194,16,F,88,70,96,16,High,7,6,Middle,High School,Yes,5,79,Yes
+195,18,F,75,89,80,19,High,6,4,High,High School,No,5,80,No
+196,17,M,95,88,83,5,High,5,5,High,Some College,Yes,6,77,No
+197,18,M,99,70,88,11,Low,9,1,Middle,Graduate,Yes,6,71,No
+198,18,M,64,59,52,7,Medium,2,7,Middle,Some College,No,9,93,Yes
+199,17,F,83,87,57,18,High,2,8,Low,Graduate,No,7,77,No
+200,16,M,91,95,72,10,Medium,9,9,High,Graduate,Yes,8,62,Yes
+201,16,F,93,53,63,6,Medium,3,8,Middle,Graduate,No,9,74,No
+202,17,F,98,94,76,13,Medium,8,5,High,High School,Yes,5,93,Yes
+203,16,F,89,69,78,5,High,9,3,High,Graduate,Yes,6,95,Yes
+204,17,M,60,66,88,10,Low,8,10,Middle,Graduate,No,7,56,Yes
+205,17,M,52,56,88,10,High,4,9,Low,Graduate,Yes,9,94,Yes
+206,18,F,55,53,50,9,Medium,1,6,High,College,Yes,7,55,No
+207,17,M,58,78,66,20,Medium,4,5,Middle,High School,Yes,6,73,No
+208,18,M,55,63,90,17,Low,9,3,Low,College,No,9,68,Yes
+209,16,M,58,52,79,9,High,2,6,High,High School,No,9,68,No
+210,16,F,88,73,62,5,Medium,3,3,Middle,Some College,No,7,85,Yes
+211,16,F,80,86,70,14,Low,10,10,High,College,Yes,6,58,Yes
+212,16,M,81,65,68,16,Medium,8,6,Middle,Some College,Yes,5,97,No
+213,18,F,90,53,68,9,Low,6,4,Middle,Graduate,No,9,85,Yes
+214,16,M,99,73,74,6,Low,8,2,High,Some College,No,5,87,Yes
+215,17,M,61,83,71,11,High,7,8,High,Some College,No,6,89,Yes
+216,17,M,57,79,80,7,Medium,5,4,Middle,Some College,Yes,9,78,Yes
+217,17,M,57,67,66,17,High,9,9,Low,Some College,No,9,73,Yes
+218,18,F,99,68,72,19,Medium,4,7,High,High School,Yes,5,97,No
+219,16,F,77,80,81,8,High,6,2,Middle,College,No,8,54,No
+220,16,F,69,68,59,7,Medium,2,4,Middle,High School,Yes,5,91,No
+221,16,M,96,98,59,7,High,2,5,Low,High School,Yes,5,94,Yes
+222,18,M,56,95,85,8,Low,2,3,Low,High School,No,8,75,Yes
+223,17,M,60,68,57,9,Medium,10,9,Low,Some College,Yes,6,63,Yes
+224,17,F,69,71,69,5,Medium,7,5,High,High School,No,6,88,Yes
+225,16,M,65,73,81,8,Low,2,2,Middle,College,Yes,9,78,Yes
+226,17,F,53,94,99,16,High,2,3,Middle,High School,Yes,7,55,Yes
+227,17,F,55,61,63,16,Medium,9,9,Middle,Graduate,No,7,56,No
+228,18,F,71,79,99,15,Medium,7,7,Low,Some College,Yes,9,86,Yes
+229,18,F,75,87,77,12,High,3,2,Middle,Graduate,No,7,67,No
+230,18,F,52,80,95,14,Low,3,9,High,College,No,5,72,Yes
+231,18,F,90,85,73,11,High,7,4,Low,College,No,5,93,No
+232,16,M,91,68,64,13,High,5,9,Low,College,Yes,8,87,Yes
+233,18,M,63,97,71,9,High,10,2,Low,College,Yes,8,50,No
+234,17,F,60,94,79,17,Medium,6,10,Low,High School,Yes,9,53,No
+235,16,F,67,85,53,19,Low,8,4,High,Some College,No,9,93,Yes
+236,17,M,61,79,62,14,Low,9,5,Middle,College,No,9,96,Yes
+237,17,F,72,98,72,8,High,1,2,High,Graduate,Yes,5,84,No
+238,17,F,61,82,57,12,Medium,3,10,Middle,College,Yes,7,72,Yes
+239,18,M,62,67,67,13,High,7,1,High,Some College,No,9,76,Yes
+240,18,F,74,98,61,17,Medium,6,7,Low,Graduate,Yes,9,75,Yes
+241,16,F,94,77,80,11,Medium,7,10,Low,Graduate,No,5,57,No
+242,16,F,68,96,63,18,Medium,8,1,High,Graduate,Yes,5,92,Yes
+243,18,M,95,60,83,20,Medium,6,8,High,High School,No,5,65,No
+244,17,M,85,94,67,11,Low,3,3,Middle,College,Yes,7,90,No
+245,16,M,94,82,83,20,Medium,2,10,High,High School,Yes,9,52,Yes
+246,18,F,57,66,60,9,Medium,7,6,High,Graduate,No,6,81,No
+247,18,F,78,55,90,8,High,1,7,Middle,High School,No,6,54,Yes
+248,18,M,81,53,61,18,High,3,10,Middle,High School,No,9,69,Yes
+249,17,F,93,69,98,14,Low,4,1,Middle,High School,Yes,9,63,No
+250,18,F,67,97,64,5,High,1,6,High,College,No,9,81,No
+251,18,F,55,96,80,14,Medium,5,7,Middle,Graduate,No,9,75,No
+252,18,F,67,76,98,14,High,10,6,Low,Graduate,Yes,7,96,No
+253,18,F,68,64,78,11,Low,3,4,Low,College,No,6,55,No
+254,16,M,71,55,75,20,High,2,1,Low,High School,No,8,85,Yes
+255,16,F,86,96,67,5,High,3,9,High,High School,No,6,89,No
+256,18,M,81,63,81,5,Low,8,4,Low,Some College,Yes,6,54,Yes
+257,17,F,90,60,71,9,Low,6,7,High,Some College,Yes,5,62,Yes
+258,16,M,52,88,87,17,Medium,7,7,High,Some College,Yes,9,81,No
+259,18,F,77,58,66,13,High,6,2,Low,College,No,9,65,No
+260,16,M,59,75,72,10,Medium,6,1,Middle,Graduate,Yes,9,50,No
+261,16,F,84,65,73,7,High,3,8,High,Some College,No,5,62,No
+262,17,M,78,54,99,17,High,8,8,Low,Graduate,No,7,60,No
+263,18,F,64,59,57,7,Medium,7,7,High,Graduate,No,7,57,Yes
+264,18,M,82,99,90,11,High,7,8,Middle,Graduate,Yes,8,74,Yes
+265,17,F,56,52,55,10,High,6,3,Middle,College,Yes,7,89,Yes
+266,17,M,61,62,54,13,High,5,2,Low,College,No,7,81,No
+267,18,M,98,92,93,10,Low,10,7,High,College,No,9,73,No
+268,18,F,79,98,78,9,Medium,8,8,High,College,Yes,6,77,Yes
+269,17,F,70,79,77,14,Low,5,1,High,Some College,Yes,7,63,No
+270,16,M,80,94,60,11,Medium,9,10,High,High School,Yes,7,94,No
+271,16,F,73,55,50,5,Medium,9,9,Low,High School,No,5,52,No
+272,17,M,69,66,92,16,High,1,4,Middle,High School,Yes,8,85,Yes
+273,16,M,86,94,68,11,Medium,6,4,Low,Some College,Yes,5,76,No
+274,17,M,53,68,58,20,Low,7,3,High,High School,Yes,9,69,Yes
+275,16,F,77,91,76,7,Low,3,6,High,Some College,No,6,96,No
+276,16,M,93,84,83,18,Low,7,1,Middle,Some College,Yes,8,64,No
+277,18,M,69,95,93,13,Medium,7,6,High,Some College,No,5,76,Yes
+278,18,F,73,75,53,19,Low,2,2,Low,High School,No,7,94,No
+279,16,F,99,54,85,10,Medium,7,9,Low,Graduate,No,7,90,No
+280,16,F,98,78,67,13,Low,1,2,Middle,High School,Yes,8,77,No
+281,18,F,81,86,64,17,Low,5,7,Low,High School,Yes,7,74,Yes
+282,18,M,90,69,100,19,Medium,9,1,Low,College,Yes,5,91,No
+283,18,M,85,98,62,9,Low,7,7,Low,Some College,No,5,93,No
+284,17,M,83,70,68,11,High,7,5,Low,Graduate,Yes,7,95,No
+285,16,M,85,59,98,17,Medium,2,8,High,College,No,7,82,No
+286,18,F,51,54,55,20,Medium,8,4,Low,Graduate,Yes,9,95,No
+287,16,M,64,85,97,18,Medium,3,10,Middle,Graduate,Yes,6,63,Yes
+288,17,M,83,55,61,8,High,8,7,Middle,Some College,Yes,8,57,Yes
+289,17,F,85,75,100,19,Medium,3,6,Low,High School,Yes,5,97,No
+290,18,M,55,53,86,20,Low,10,5,Middle,Some College,No,8,63,No
+291,17,M,88,88,66,11,Low,7,4,Low,Some College,No,9,50,Yes
+292,16,M,91,88,72,17,Low,2,7,Middle,College,No,5,65,No
+293,18,M,61,99,75,5,Medium,4,5,Middle,Some College,No,9,67,No
+294,16,M,52,84,78,11,Low,6,5,Low,High School,Yes,9,56,No
+295,16,M,94,50,82,12,Medium,9,1,Low,Graduate,No,7,64,No
+296,17,F,67,73,76,9,Low,5,2,High,Some College,No,8,73,No
+297,17,F,89,85,74,6,High,9,5,Low,Graduate,No,8,98,No
+298,17,M,70,55,59,9,High,5,3,Low,Some College,Yes,7,62,No
+299,17,M,64,90,96,10,High,10,2,High,Graduate,No,8,58,No
+300,17,F,82,95,72,16,High,8,4,Low,Some College,No,7,64,Yes
+301,18,M,84,93,70,6,Medium,1,4,Low,College,Yes,5,84,Yes
+302,16,M,75,80,70,18,Low,7,4,High,Graduate,Yes,9,73,No
+303,16,M,57,69,92,10,High,4,4,Low,Some College,No,9,82,No
+304,16,F,85,73,62,10,Medium,5,3,Low,Some College,No,8,65,No
+305,16,M,97,74,86,5,High,6,7,High,College,Yes,6,57,No
+306,17,F,79,85,82,18,High,5,9,High,College,No,9,78,Yes
+307,16,M,72,70,73,5,Medium,1,5,Middle,College,Yes,7,72,Yes
+308,18,F,91,79,93,18,Medium,9,4,Low,Graduate,No,6,94,Yes
+309,18,F,93,73,60,15,Low,2,2,Middle,Graduate,No,6,80,Yes
+310,16,M,63,93,66,20,Low,9,2,Middle,College,No,9,89,No
+311,16,F,63,91,53,14,High,10,5,High,High School,No,9,98,No
+312,18,M,51,79,96,7,High,2,7,Low,High School,No,9,63,No
+313,18,F,86,71,74,18,Low,9,10,Low,Some College,Yes,7,79,Yes
+314,17,M,54,77,79,14,Low,6,10,High,High School,Yes,6,88,No
+315,18,M,87,56,58,14,Medium,9,9,Middle,Some College,No,8,76,No
+316,17,F,94,84,70,19,Low,6,7,High,Graduate,No,7,96,Yes
+317,17,M,90,77,69,16,Low,6,5,Low,Graduate,No,5,65,Yes
+318,17,M,96,63,68,7,High,2,10,High,High School,Yes,9,55,Yes
+319,17,F,63,59,68,8,Low,8,10,Low,Graduate,Yes,6,82,Yes
+320,17,M,88,65,61,6,High,3,10,Middle,College,Yes,7,93,Yes
+321,16,M,74,65,86,13,Low,7,6,Low,College,Yes,5,67,No
+322,18,F,69,80,91,14,Medium,5,3,Middle,High School,Yes,7,65,No
+323,17,F,51,91,66,16,Low,3,5,Middle,High School,Yes,7,61,Yes
+324,18,M,88,74,86,15,Low,1,8,Low,Some College,Yes,8,69,No
+325,18,M,55,62,97,18,Low,8,1,Low,Graduate,Yes,8,94,No
+326,17,F,66,55,88,11,High,3,1,Middle,Some College,No,7,89,No
+327,16,F,74,93,77,11,Medium,2,7,High,Some College,Yes,5,78,No
+328,17,M,77,58,90,19,Low,1,5,Low,College,Yes,6,79,Yes
+329,16,F,51,94,84,10,High,4,5,Middle,College,Yes,6,75,No
+330,18,M,84,85,96,19,Medium,8,1,Middle,College,Yes,9,71,No
+331,16,M,86,92,97,7,High,3,9,High,College,No,9,82,No
+332,16,M,54,69,67,10,High,1,1,Low,Some College,Yes,6,88,Yes
+333,16,M,50,67,63,19,Medium,4,5,Middle,College,No,7,96,No
+334,18,M,89,92,84,18,Low,9,10,High,Graduate,No,7,78,Yes
+335,18,F,61,70,93,16,High,1,9,Middle,College,No,8,71,Yes
+336,16,F,85,53,90,12,High,2,4,Low,College,Yes,8,94,Yes
+337,16,F,94,99,56,12,Low,9,8,High,College,Yes,9,62,Yes
+338,17,F,72,82,90,15,Low,2,6,Middle,High School,Yes,6,58,No
+339,16,M,96,76,62,17,Medium,3,3,High,Graduate,No,7,73,Yes
+340,17,M,80,56,67,13,Medium,7,4,Low,Graduate,No,6,64,Yes
+341,16,M,60,55,86,19,Medium,3,2,High,Some College,No,5,85,Yes
+342,17,M,59,64,62,5,Low,9,1,Low,Some College,No,6,62,Yes
+343,18,F,52,67,85,18,High,6,8,Middle,College,Yes,5,76,Yes
+344,16,M,63,81,80,5,High,3,1,Low,High School,Yes,8,93,No
+345,16,M,65,60,51,7,Medium,9,1,Middle,Some College,Yes,8,86,Yes
+346,16,F,59,69,65,7,Low,1,4,Middle,Some College,No,9,56,No
+347,16,F,78,73,58,14,High,10,10,Low,College,No,6,57,No
+348,17,F,59,64,58,12,Medium,3,10,Middle,College,Yes,6,86,Yes
+349,16,F,61,97,87,19,High,1,6,High,Some College,Yes,5,90,No
+350,18,M,79,56,60,14,High,2,9,Middle,Some College,No,8,63,No
+351,18,M,90,70,71,5,Low,8,1,Low,Graduate,Yes,5,61,No
+352,16,F,50,91,82,17,Low,7,7,High,High School,Yes,8,85,Yes
+353,18,M,54,75,85,6,High,2,10,High,Graduate,No,5,89,Yes
+354,16,M,69,93,94,6,Medium,2,5,Middle,Some College,No,8,66,Yes
+355,16,M,57,63,72,7,Low,9,8,Middle,Graduate,No,5,89,Yes
+356,18,F,92,86,94,17,High,6,7,Low,Graduate,Yes,8,78,Yes
+357,16,M,61,70,94,10,Low,5,4,High,Some College,No,5,76,Yes
+358,18,F,50,67,83,5,Low,10,4,Low,College,Yes,6,50,Yes
+359,17,M,69,54,58,6,Low,6,6,Middle,Some College,Yes,9,83,No
+360,16,M,77,52,73,17,High,9,6,High,College,No,5,53,No
+361,17,M,92,72,57,20,Medium,7,9,Low,Some College,Yes,9,73,Yes
+362,18,F,86,75,56,19,Medium,10,5,Low,Some College,No,6,70,No
+363,17,M,96,86,85,17,Medium,10,8,Low,Some College,No,6,82,Yes
+364,17,F,86,73,67,20,Low,9,5,Low,High School,Yes,8,56,Yes
+365,18,F,61,98,52,5,High,4,2,Low,College,Yes,9,50,Yes
+366,17,F,86,68,77,9,Low,2,6,High,High School,No,7,90,No
+367,17,M,98,74,55,20,Medium,8,9,Low,Some College,No,8,52,Yes
+368,18,M,98,70,93,17,Medium,4,3,High,Graduate,No,9,93,Yes
+369,17,M,93,61,93,17,High,9,1,Low,High School,No,5,64,Yes
+370,18,M,77,90,70,11,Low,4,1,Middle,College,No,5,80,Yes
+371,17,F,96,82,77,20,Medium,8,3,Middle,Some College,No,6,65,No
+372,18,F,64,99,89,12,High,9,10,Low,High School,Yes,7,59,Yes
+373,18,F,55,53,50,14,Low,9,5,Middle,Graduate,Yes,5,78,No
+374,17,M,93,91,85,5,Low,10,3,High,High School,Yes,9,55,No
+375,17,F,69,56,70,11,Medium,4,9,Low,College,Yes,9,78,Yes
+376,17,M,99,71,92,17,Medium,1,8,High,High School,No,5,66,Yes
+377,16,F,63,82,84,9,Low,3,3,Low,Graduate,Yes,9,71,No
+378,16,M,51,66,62,14,Low,9,9,Middle,Graduate,Yes,9,73,No
+379,16,M,58,73,98,5,Medium,4,6,High,College,No,6,66,No
+380,18,F,86,83,59,7,Low,5,7,Middle,Graduate,Yes,7,70,No
+381,17,F,69,77,93,11,Medium,7,4,Middle,Some College,No,6,99,Yes
+382,18,F,75,92,96,14,Low,5,4,Low,Graduate,No,7,60,No
+383,16,F,78,90,59,5,Medium,4,2,High,Some College,No,9,56,No
+384,17,M,50,88,95,11,High,2,5,Middle,High School,No,7,91,No
+385,18,F,84,71,62,9,Medium,2,8,Low,Some College,No,9,88,No
+386,17,F,55,98,86,5,Medium,4,7,Low,Some College,Yes,9,54,Yes
+387,18,F,86,66,87,5,High,10,7,Low,High School,Yes,6,93,Yes
+388,17,M,54,83,73,18,Low,10,6,Middle,Graduate,Yes,6,97,Yes
+389,16,M,82,55,51,5,High,9,3,Low,Some College,No,8,70,No
+390,16,F,98,95,71,15,Medium,8,5,High,Graduate,Yes,5,67,No
+391,17,M,63,55,66,13,Low,3,1,High,High School,Yes,8,84,Yes
+392,18,F,61,83,85,15,High,9,7,Middle,College,Yes,8,69,Yes
+393,16,M,91,50,63,17,Low,5,9,High,Graduate,Yes,7,64,No
+394,16,M,69,59,59,7,Low,3,1,Low,Graduate,No,9,54,Yes
+395,16,M,99,70,84,19,High,5,2,Middle,College,Yes,9,62,No
+396,17,M,73,54,74,17,Low,10,3,Low,College,No,9,61,No
+397,17,F,92,51,52,9,High,4,3,Middle,High School,No,5,70,No
+398,18,F,83,71,96,15,Medium,8,8,Middle,Graduate,Yes,7,86,No
+399,18,F,74,97,87,20,Low,5,7,Low,Graduate,No,7,55,No
+400,18,M,99,51,66,14,Medium,10,6,High,High School,No,9,56,No
+401,17,F,78,59,61,16,Medium,8,10,High,Graduate,No,8,75,Yes
+402,17,F,88,83,73,20,Low,9,10,Middle,Some College,No,5,91,Yes
+403,18,F,80,65,78,13,High,4,4,Low,Some College,No,8,97,Yes
+404,18,M,96,97,92,10,Low,7,9,Low,Some College,No,6,57,No
+405,17,M,92,88,74,16,Medium,2,1,Middle,Graduate,No,7,58,Yes
+406,18,M,99,71,85,13,Medium,6,2,High,Some College,Yes,7,76,No
+407,16,F,72,61,75,12,High,8,4,Low,Some College,Yes,8,53,No
+408,17,F,93,73,87,12,Low,7,3,High,High School,No,5,70,No
+409,18,F,87,96,50,5,Medium,7,1,High,High School,No,7,80,No
+410,17,M,69,89,69,17,Medium,8,5,Middle,College,Yes,8,70,Yes
+411,16,M,72,87,77,13,Medium,7,7,Middle,College,Yes,5,89,Yes
+412,17,F,94,59,65,10,High,5,2,High,College,Yes,8,74,Yes
+413,17,M,65,84,96,20,Medium,7,5,Low,College,Yes,5,88,No
+414,17,M,99,98,66,13,Medium,10,6,Low,High School,No,9,64,Yes
+415,17,M,91,81,89,7,Low,3,7,Middle,High School,No,5,84,Yes
+416,16,M,57,56,77,16,Low,5,1,High,High School,Yes,6,98,Yes
+417,17,F,99,70,61,7,Medium,7,7,Low,Some College,Yes,9,92,No
+418,17,M,70,69,76,10,Medium,9,4,Low,Some College,Yes,8,90,Yes
+419,18,M,50,75,91,13,Low,2,8,Middle,College,Yes,9,86,No
+420,17,M,57,53,96,11,High,4,4,High,Some College,No,9,91,Yes
+421,18,M,78,95,79,18,High,7,6,Low,Graduate,Yes,8,96,No
+422,16,F,81,71,90,17,High,1,9,Middle,High School,Yes,8,77,Yes
+423,16,F,87,64,83,7,High,2,5,Low,College,Yes,6,63,Yes
+424,16,M,54,89,86,7,High,9,4,Low,College,No,8,53,Yes
+425,16,M,96,70,55,6,High,10,8,Low,Graduate,No,7,69,No
+426,18,M,71,64,56,13,High,7,9,Middle,Some College,No,7,83,Yes
+427,17,M,96,71,81,17,High,10,4,High,College,Yes,6,61,Yes
+428,16,M,83,77,81,19,Low,7,3,Middle,Some College,Yes,5,82,No
+429,17,M,50,63,74,7,High,6,8,High,Some College,Yes,5,73,No
+430,18,F,75,76,82,15,High,3,5,Low,Graduate,No,7,69,No
+431,18,M,92,90,56,9,High,10,2,High,College,No,8,54,No
+432,18,F,59,89,61,18,Medium,3,10,Low,Some College,Yes,6,87,Yes
+433,16,F,79,77,65,18,Low,2,9,Low,Some College,Yes,5,79,Yes
+434,17,M,99,75,65,13,Low,6,3,Middle,Graduate,No,5,73,No
+435,17,F,67,98,92,12,Low,4,2,Low,Graduate,Yes,9,92,Yes
+436,17,F,66,51,85,6,High,5,1,Middle,Some College,Yes,7,89,No
+437,18,F,75,74,62,7,High,3,8,High,Graduate,Yes,8,56,Yes
+438,16,F,57,52,56,20,Medium,6,3,High,Some College,No,6,85,No
+439,18,F,96,57,85,20,Low,3,7,Low,College,Yes,5,87,Yes
+440,18,F,89,93,96,6,High,8,1,Middle,High School,Yes,9,65,No
+441,17,M,98,82,100,20,Low,9,1,Low,Graduate,Yes,7,64,No
+442,18,F,61,91,58,12,Medium,4,9,Middle,High School,Yes,7,95,Yes
+443,17,F,76,84,81,10,Medium,9,8,Middle,Some College,No,6,72,Yes
+444,16,F,57,55,60,10,Medium,7,3,Middle,Some College,No,5,61,Yes
+445,17,M,74,88,57,16,Low,3,6,High,Some College,No,6,78,No
+446,16,F,95,72,82,19,High,7,3,Middle,High School,Yes,6,93,Yes
+447,17,M,53,74,72,13,High,1,4,High,Some College,No,9,97,No
+448,18,F,82,99,74,12,Medium,3,1,Middle,Graduate,Yes,7,64,Yes
+449,18,M,50,92,57,8,High,6,5,High,College,No,8,78,Yes
+450,16,M,68,68,94,19,Medium,4,1,High,College,Yes,7,94,No
+451,16,F,80,54,71,16,Low,7,1,High,Graduate,No,7,92,No
+452,16,F,65,60,53,8,Medium,3,10,Low,College,No,9,98,Yes
+453,17,M,63,61,89,13,Low,1,7,Middle,High School,No,8,70,No
+454,17,F,97,59,52,5,Medium,9,6,Low,Some College,Yes,5,64,No
+455,16,M,54,57,78,17,High,6,2,Middle,Some College,Yes,8,63,Yes
+456,18,M,90,73,90,6,High,8,2,Middle,Some College,Yes,5,91,No
+457,17,M,75,77,78,6,Medium,3,7,Low,High School,No,8,93,Yes
+458,17,M,77,90,83,17,High,8,1,High,High School,Yes,6,65,Yes
+459,17,M,51,85,83,17,High,2,2,Middle,High School,Yes,8,64,No
+460,16,F,99,86,77,10,High,4,8,High,Graduate,Yes,9,91,Yes
+461,16,M,55,70,62,19,Low,3,6,Low,High School,Yes,5,53,No
+462,16,M,58,57,64,8,High,10,2,High,College,Yes,7,76,Yes
+463,16,F,82,58,72,20,Low,1,7,Middle,Graduate,Yes,9,72,No
+464,16,M,90,96,93,17,Medium,7,4,Middle,Graduate,No,5,78,No
+465,18,F,74,64,75,15,High,10,2,Middle,Graduate,No,5,90,No
+466,18,F,97,97,53,14,High,2,6,Low,High School,Yes,7,58,No
+467,16,F,62,95,75,17,High,4,9,Middle,Graduate,No,6,92,No
+468,17,M,58,89,89,7,Medium,9,9,Low,High School,No,9,92,Yes
+469,16,M,62,67,58,7,Low,6,8,High,High School,Yes,7,56,Yes
+470,18,M,80,91,54,7,Low,8,3,Middle,Graduate,Yes,7,91,No
+471,18,F,90,69,81,10,High,2,3,Middle,Some College,No,6,53,Yes
+472,17,M,60,55,69,18,Medium,7,2,Middle,Some College,Yes,9,54,No
+473,18,F,53,61,99,20,Medium,6,5,High,Graduate,No,7,54,No
+474,16,M,83,51,60,12,Medium,9,4,Middle,Some College,No,6,60,Yes
+475,17,F,87,56,64,15,Medium,7,7,Low,College,No,9,90,Yes
+476,16,M,95,65,81,11,Medium,1,4,High,College,Yes,8,77,No
+477,16,M,53,52,77,18,Low,8,9,High,High School,No,5,65,No
+478,17,M,87,94,71,8,Low,10,2,High,Some College,Yes,6,90,No
+479,16,F,68,52,90,15,Low,3,6,High,College,Yes,5,79,No
+480,18,F,55,76,66,16,High,2,7,High,Graduate,Yes,8,53,No
+481,16,M,83,99,75,8,Medium,3,4,Low,Some College,Yes,7,51,No
+482,17,M,67,92,93,15,High,6,6,High,College,Yes,7,95,Yes
+483,17,F,62,89,56,14,Medium,3,7,Middle,College,No,9,52,No
+484,17,F,90,87,91,19,Low,10,4,High,Graduate,Yes,6,99,No
+485,16,F,72,82,75,15,High,5,8,High,High School,Yes,6,70,Yes
+486,17,M,68,77,74,20,Low,6,9,High,Graduate,Yes,9,55,No
+487,17,F,94,50,59,15,Medium,8,1,High,High School,Yes,5,92,No
+488,16,M,60,57,94,18,Medium,7,7,High,College,Yes,7,67,Yes
+489,18,F,50,86,68,15,Medium,8,9,Low,High School,No,7,93,No
+490,16,M,73,81,60,6,Low,3,10,Low,College,Yes,6,54,Yes
+491,17,F,56,97,62,18,Medium,4,5,High,College,Yes,6,58,No
+492,17,F,74,92,57,20,Low,6,2,Low,Some College,No,9,69,Yes
+493,16,F,70,86,89,5,High,7,10,Middle,High School,Yes,8,77,Yes
+494,18,F,64,53,53,13,Medium,9,6,High,High School,No,5,75,Yes
+495,17,F,50,79,96,16,Medium,1,7,Middle,High School,No,8,67,No
+496,17,M,61,55,80,19,Medium,8,2,Middle,Graduate,No,8,68,No
+497,17,F,56,95,77,16,High,8,2,High,Some College,No,6,52,Yes
+498,16,F,64,68,60,6,Medium,6,10,Middle,Some College,Yes,6,58,Yes
+499,17,F,70,81,92,17,Low,4,10,Middle,Some College,Yes,6,85,No
+500,18,M,68,58,50,12,Low,3,1,Middle,Graduate,No,8,80,No
+501,17,F,78,61,98,19,Medium,3,4,High,High School,No,5,98,No
+502,17,M,74,60,96,20,Medium,6,7,High,High School,Yes,6,66,No
+503,18,F,82,95,87,13,High,8,9,Middle,High School,No,7,72,No
+504,17,F,98,65,73,8,High,7,3,High,Some College,No,5,83,Yes
+505,16,M,81,50,96,12,High,1,7,High,Some College,No,7,90,No
+506,16,F,98,94,80,13,Medium,6,7,Middle,College,Yes,5,90,Yes
+507,16,M,84,70,90,14,High,7,7,High,Graduate,No,6,54,No
+508,18,M,93,79,95,14,High,7,2,Low,Graduate,Yes,9,64,Yes
+509,17,F,87,62,99,9,Low,9,6,High,Some College,Yes,6,96,Yes
+510,16,M,75,83,75,20,High,10,2,Low,College,Yes,8,52,No
+511,18,F,60,53,98,17,Low,5,6,Middle,High School,No,8,68,Yes
+512,17,F,84,77,99,18,Low,1,10,High,Some College,No,5,77,Yes
+513,18,M,57,87,54,11,High,2,3,Middle,Graduate,Yes,8,52,Yes
+514,16,M,95,80,69,20,Low,4,2,Middle,Graduate,Yes,6,87,Yes
+515,16,M,63,76,90,14,Medium,5,6,Middle,Graduate,Yes,7,53,No
+516,16,M,59,54,60,8,Medium,9,2,Middle,High School,No,6,73,Yes
+517,18,F,51,74,82,5,High,1,5,Middle,Graduate,No,5,80,No
+518,18,F,95,52,99,7,Medium,3,2,High,High School,Yes,8,94,Yes
+519,16,M,58,82,87,9,Low,5,3,Low,High School,Yes,7,94,No
+520,18,F,52,53,76,7,Medium,3,3,High,High School,No,9,60,No
+521,16,F,70,74,83,20,High,4,6,High,Some College,Yes,7,86,No
+522,16,F,75,69,64,16,High,3,6,High,High School,No,7,50,Yes
+523,17,F,57,83,81,17,Low,4,10,High,College,No,6,58,No
+524,18,M,97,75,70,15,High,1,3,Low,Graduate,Yes,9,66,No
+525,16,M,51,54,95,11,Medium,8,3,High,Some College,Yes,5,50,Yes
+526,16,F,55,84,54,16,High,4,1,Middle,Graduate,No,5,52,No
+527,18,M,77,77,55,13,Low,7,7,High,High School,No,7,96,Yes
+528,17,M,78,78,87,19,High,2,8,High,Some College,No,7,75,Yes
+529,17,M,75,58,71,16,Medium,2,2,Low,College,No,8,80,No
+530,16,F,74,87,67,10,Low,6,4,Low,High School,No,9,75,Yes
+531,18,F,61,99,63,17,Medium,2,10,Middle,Graduate,Yes,7,72,Yes
+532,17,F,54,55,59,14,Low,6,7,High,College,No,8,79,Yes
+533,18,M,83,68,95,5,High,2,8,High,High School,No,9,59,No
+534,18,F,97,93,62,20,Low,4,1,High,College,No,5,57,Yes
+535,16,F,86,60,80,11,Low,7,4,Middle,High School,Yes,8,93,Yes
+536,17,M,64,51,79,19,High,8,6,Low,Some College,Yes,9,74,Yes
+537,16,F,93,96,52,7,Medium,3,3,Middle,High School,No,8,71,No
+538,17,F,85,93,79,9,High,9,5,High,Some College,No,7,64,Yes
+539,17,M,64,93,55,20,Low,2,10,Low,High School,Yes,6,90,No
+540,17,M,92,58,78,14,High,8,9,Low,High School,Yes,5,59,Yes
+541,17,M,97,70,57,8,Low,8,3,Middle,Graduate,Yes,7,69,No
+542,17,F,72,73,93,14,High,4,5,Low,College,Yes,7,90,No
+543,18,F,55,83,94,9,High,1,8,Low,College,No,9,96,No
+544,16,F,95,71,92,9,Medium,1,6,High,College,Yes,8,72,Yes
+545,18,M,99,52,93,10,Low,2,4,High,High School,No,5,50,Yes
+546,17,M,93,61,82,18,Medium,9,8,Low,High School,No,7,51,Yes
+547,16,F,92,77,66,14,Low,2,3,Low,High School,Yes,9,68,No
+548,17,F,94,79,97,16,High,2,3,Middle,Some College,Yes,5,63,Yes
+549,16,M,70,75,60,14,Low,6,4,Middle,Some College,Yes,8,57,Yes
+550,18,M,72,97,62,17,Medium,7,9,Low,Graduate,Yes,7,87,No
+551,16,M,92,70,99,17,Medium,7,5,High,High School,No,7,61,Yes
+552,16,M,65,77,60,15,Medium,9,8,Low,College,No,7,75,Yes
+553,16,F,96,75,80,10,Low,6,6,Low,College,No,5,76,No
+554,16,M,64,82,77,20,Medium,8,3,High,Graduate,Yes,5,78,No
+555,16,F,74,70,93,12,Medium,6,8,High,College,No,5,64,Yes
+556,17,F,85,84,55,12,Medium,2,9,Middle,Graduate,Yes,5,95,No
+557,16,F,60,83,90,15,High,1,8,Middle,High School,No,9,50,Yes
+558,16,M,64,90,65,13,High,5,4,Middle,College,Yes,6,92,Yes
+559,18,M,53,96,53,12,Low,9,6,Middle,High School,No,9,77,Yes
+560,16,M,70,67,84,17,Low,8,1,High,Some College,No,7,52,Yes
+561,18,M,62,60,97,15,Medium,4,4,Low,College,Yes,9,67,Yes
+562,17,F,71,72,75,6,High,5,8,Middle,Some College,No,8,83,No
+563,16,M,68,97,61,18,Medium,5,1,Middle,College,No,5,81,No
+564,18,M,83,71,60,18,Medium,6,3,High,High School,Yes,8,78,Yes
+565,18,F,63,66,86,16,High,3,1,High,Graduate,Yes,8,74,No
+566,17,M,53,54,74,14,High,5,9,Low,High School,Yes,7,75,No
+567,16,F,97,93,67,16,High,2,2,Low,High School,Yes,5,88,Yes
+568,16,F,95,60,68,15,Low,10,9,High,High School,Yes,8,57,No
+569,18,F,76,79,72,19,Low,1,4,Middle,College,No,7,68,No
+570,16,F,78,64,87,20,Medium,1,2,Middle,Graduate,Yes,5,96,Yes
+571,18,F,96,76,67,5,Low,10,4,Middle,Some College,No,6,91,Yes
+572,16,F,77,84,75,14,High,7,10,Low,High School,No,7,71,Yes
+573,18,F,84,82,55,6,High,2,6,Middle,College,Yes,9,78,Yes
+574,16,F,57,69,53,6,Low,4,7,Middle,Some College,No,5,82,Yes
+575,17,M,65,65,93,16,Medium,5,3,High,High School,No,8,87,Yes
+576,16,M,91,83,100,7,Medium,7,3,Middle,Some College,Yes,8,94,Yes
+577,16,M,85,51,78,14,Low,2,10,High,High School,No,9,95,No
+578,17,M,79,84,83,11,Medium,6,8,Middle,Some College,Yes,9,84,Yes
+579,16,F,67,89,66,6,Medium,1,5,Low,Some College,Yes,8,92,No
+580,17,M,51,77,92,18,Medium,7,4,Middle,Graduate,Yes,5,52,No
+581,16,F,98,96,92,20,High,9,7,Middle,Graduate,No,7,68,Yes
+582,18,M,62,88,65,5,High,5,7,High,High School,No,9,59,No
+583,18,M,53,55,51,20,Low,5,9,High,College,No,9,76,No
+584,16,M,75,58,83,18,High,4,9,High,Graduate,No,9,64,No
+585,16,F,74,69,57,10,Medium,3,5,Middle,Some College,Yes,6,60,Yes
+586,16,M,79,50,62,13,High,9,8,Middle,Graduate,No,5,96,No
+587,18,F,60,57,91,19,Low,5,10,Low,Graduate,Yes,5,75,No
+588,16,F,56,72,57,7,High,8,1,Middle,High School,No,5,73,Yes
+589,18,M,80,52,79,10,Medium,9,9,Low,Graduate,No,5,62,No
+590,17,M,93,53,81,7,Medium,5,8,High,Graduate,No,5,81,No
+591,18,M,59,74,85,18,Low,10,6,High,Some College,No,8,86,No
+592,18,F,88,96,96,17,High,9,3,High,Graduate,No,9,53,No
+593,17,M,62,87,79,5,High,2,3,Low,Some College,Yes,8,62,No
+594,18,F,80,64,50,18,High,9,8,Middle,Graduate,No,6,58,Yes
+595,16,F,56,70,92,17,Medium,4,5,High,Graduate,No,7,98,No
+596,16,M,98,84,88,20,Low,6,10,Middle,College,No,9,83,Yes
+597,18,M,91,95,66,16,High,6,7,Middle,Graduate,No,6,86,No
+598,16,F,91,63,69,9,Medium,6,5,High,Some College,Yes,8,97,Yes
+599,18,F,85,85,73,14,Medium,2,8,Low,Some College,No,7,56,Yes
+600,16,F,69,61,99,18,Medium,7,10,Middle,High School,Yes,6,50,Yes
+601,16,M,53,66,71,17,High,6,10,High,High School,No,7,61,No
+602,18,F,56,88,78,15,High,1,4,Middle,College,Yes,6,70,No
+603,16,M,50,58,71,8,High,2,2,Middle,Some College,Yes,8,60,No
+604,18,F,93,84,93,11,High,7,3,Middle,Some College,Yes,7,93,No
+605,16,F,94,62,58,10,High,1,8,Middle,Some College,Yes,6,93,No
+606,16,M,91,64,86,14,High,1,7,Middle,College,Yes,8,93,Yes
+607,17,F,96,67,59,11,High,1,2,Low,Some College,No,9,63,Yes
+608,17,M,62,82,85,9,High,8,6,Low,High School,Yes,8,83,Yes
+609,18,M,71,55,86,19,High,4,9,High,College,No,8,83,No
+610,17,F,70,76,77,19,Medium,4,4,Low,High School,Yes,9,74,No
+611,18,M,71,72,77,8,High,2,9,Low,High School,Yes,8,53,Yes
+612,17,M,77,76,91,20,Low,1,2,Low,College,No,9,75,No
+613,16,F,58,83,92,11,Medium,10,2,Middle,Graduate,Yes,9,65,No
+614,18,M,75,95,70,11,High,9,9,Middle,Graduate,Yes,9,59,Yes
+615,18,M,58,87,73,10,Low,7,7,High,High School,Yes,6,94,Yes
+616,16,M,64,63,91,12,High,4,7,High,Graduate,Yes,7,51,No
+617,18,F,59,85,89,8,Low,6,1,High,Some College,No,6,84,No
+618,18,M,73,57,51,14,Low,2,6,Middle,College,Yes,9,68,Yes
+619,17,F,91,84,57,9,Low,7,7,Low,High School,Yes,7,55,No
+620,18,F,57,68,97,8,Low,2,6,Low,Some College,No,7,68,Yes
+621,16,M,73,79,76,16,Medium,10,6,Middle,Graduate,No,9,57,Yes
+622,17,M,65,63,71,5,Medium,8,2,High,Some College,Yes,7,63,Yes
+623,17,M,98,69,86,16,Low,8,6,High,Graduate,Yes,7,59,No
+624,16,F,75,98,76,12,High,1,4,High,High School,No,6,52,Yes
+625,16,M,76,74,78,5,Low,8,9,Middle,Some College,Yes,7,87,Yes
+626,17,M,86,89,52,9,Medium,2,1,High,College,No,9,78,No
+627,18,M,53,73,93,19,High,6,8,High,High School,Yes,5,64,Yes
+628,17,M,99,63,62,10,Medium,1,5,Middle,Some College,No,5,72,No
+629,16,M,73,75,94,10,Medium,5,1,Low,Some College,No,5,72,No
+630,17,F,68,87,59,17,High,7,4,Middle,Graduate,No,9,67,No
+631,16,F,85,72,85,9,Low,10,1,Middle,High School,Yes,5,95,Yes
+632,17,M,88,71,58,20,Low,1,6,Middle,High School,Yes,6,68,Yes
+633,18,M,59,97,76,7,Low,2,2,Middle,High School,Yes,9,77,No
+634,17,M,74,68,83,19,Low,7,5,Low,High School,Yes,9,75,No
+635,17,M,67,95,100,9,High,6,7,High,Graduate,No,9,59,No
+636,16,F,68,52,50,16,High,3,2,Middle,College,No,7,96,Yes
+637,16,M,85,91,81,12,High,10,6,Low,High School,No,7,53,No
+638,16,F,59,68,74,18,Medium,2,6,High,Graduate,Yes,7,51,No
+639,17,F,82,58,78,6,High,10,5,High,College,Yes,8,52,No
+640,18,M,99,77,56,20,Low,4,5,High,College,Yes,6,56,Yes
+641,16,F,54,69,98,10,Medium,3,3,Middle,Graduate,No,9,65,No
+642,16,F,96,94,52,13,Low,7,10,Middle,High School,Yes,9,80,Yes
+643,17,F,98,56,69,12,Low,8,10,High,College,Yes,7,59,Yes
+644,16,F,84,63,69,18,High,2,2,High,High School,No,9,68,No
+645,18,M,93,58,79,15,High,10,7,High,High School,No,9,77,No
+646,18,M,83,68,84,12,Low,7,1,High,Some College,Yes,5,66,No
+647,16,F,82,96,84,12,Low,8,6,High,High School,No,9,77,Yes
+648,16,M,70,63,98,19,Medium,6,6,High,Some College,Yes,8,68,Yes
+649,17,M,66,87,88,17,High,6,3,Low,College,No,7,86,Yes
+650,18,M,71,85,76,11,Medium,10,2,High,Graduate,No,6,72,No
+651,18,M,97,89,75,12,Medium,1,2,Middle,Some College,No,6,69,Yes
+652,16,M,86,66,63,17,Medium,4,9,Middle,Graduate,Yes,5,62,No
+653,17,F,64,79,66,10,Low,1,5,Middle,College,Yes,6,62,No
+654,18,M,84,58,67,6,Medium,4,7,High,High School,Yes,6,92,No
+655,18,M,77,82,94,6,Medium,2,5,Middle,College,No,7,60,Yes
+656,17,M,56,74,78,12,Low,5,7,Low,Graduate,No,7,97,Yes
+657,17,M,81,63,69,15,High,10,4,High,College,No,8,64,Yes
+658,18,F,60,60,76,5,High,9,8,Middle,High School,No,5,66,No
+659,18,F,59,84,67,10,Medium,10,10,Low,College,Yes,6,99,Yes
+660,17,F,58,90,53,17,Low,3,10,Low,High School,Yes,8,77,Yes
+661,18,F,63,63,50,20,High,8,7,Middle,Some College,Yes,5,68,No
+662,16,M,62,79,99,10,Medium,3,10,Low,Graduate,No,6,53,No
+663,16,F,74,90,50,20,Medium,6,5,Middle,High School,No,6,71,Yes
+664,17,M,51,53,75,15,Low,4,6,Low,High School,Yes,7,71,No
+665,17,M,84,53,94,8,Medium,8,5,High,College,No,9,86,Yes
+666,17,M,56,77,69,16,High,6,7,High,Some College,Yes,5,88,No
+667,16,M,70,57,72,15,Low,8,2,High,High School,No,6,83,No
+668,18,M,67,51,59,17,High,1,5,High,Some College,No,5,82,Yes
+669,16,F,52,90,60,19,High,6,10,High,Some College,Yes,8,93,No
+670,18,F,91,95,90,15,High,1,3,Middle,College,Yes,8,91,No
+671,16,F,88,71,90,20,Medium,1,9,High,High School,No,9,89,No
+672,18,F,90,90,54,17,Medium,8,6,High,College,Yes,6,82,Yes
+673,16,M,98,65,50,14,High,7,10,High,Graduate,Yes,7,61,No
+674,17,F,60,78,66,7,High,3,3,High,Graduate,No,6,51,No
+675,16,M,88,98,71,17,Low,6,7,Low,High School,No,5,77,Yes
+676,18,F,73,97,83,15,Low,9,4,High,Some College,No,8,59,Yes
+677,16,M,95,79,94,7,Medium,7,3,High,High School,Yes,5,71,No
+678,16,M,68,61,90,19,Medium,3,8,Middle,High School,No,9,66,No
+679,16,F,53,84,78,19,Low,6,4,Low,Graduate,No,8,75,No
+680,17,M,75,60,53,20,High,4,1,Middle,Graduate,No,7,52,Yes
+681,16,M,87,95,54,17,Medium,3,6,High,Some College,No,8,56,No
+682,17,F,91,99,60,17,High,9,10,Middle,Some College,No,6,93,Yes
+683,17,M,81,70,100,5,Low,10,1,Middle,High School,Yes,6,57,Yes
+684,16,F,88,70,70,7,Medium,2,5,High,College,No,8,69,No
+685,16,F,94,54,84,8,Medium,1,7,Low,High School,No,9,61,No
+686,16,F,95,97,61,15,Low,2,6,Low,Some College,Yes,6,84,Yes
+687,18,M,85,69,75,15,Medium,7,2,Middle,College,No,6,66,No
+688,16,M,89,86,100,9,Low,10,4,High,Graduate,No,7,77,No
+689,17,M,86,52,68,7,Medium,1,2,Middle,Some College,Yes,8,90,Yes
+690,16,F,82,93,94,10,Low,6,1,Middle,Some College,No,6,59,No
+691,18,M,85,82,56,15,Medium,7,3,Middle,College,Yes,9,71,Yes
+692,16,F,52,58,96,18,High,9,3,High,Some College,No,5,87,No
+693,18,F,58,58,56,19,High,8,7,High,Some College,Yes,8,82,Yes
+694,18,M,57,53,75,16,High,6,1,Low,Some College,Yes,7,71,Yes
+695,16,F,82,84,89,20,Medium,3,9,High,Some College,No,6,93,No
+696,17,M,55,66,54,9,Medium,8,6,Middle,Some College,Yes,9,86,Yes
+697,18,M,90,83,70,7,High,7,4,Middle,Some College,Yes,8,62,Yes
+698,16,M,88,73,63,10,High,3,3,Low,Some College,No,9,76,No
+699,16,M,53,81,53,10,Low,9,3,High,Some College,No,9,64,No
+700,17,M,62,50,72,19,Low,2,2,Middle,Graduate,Yes,7,71,No
+701,18,F,98,57,91,18,Low,3,2,Low,Some College,No,8,79,Yes
+702,18,F,51,94,69,12,High,2,10,Low,Graduate,Yes,6,92,Yes
+703,16,F,54,72,64,6,High,1,5,Middle,Graduate,Yes,7,89,Yes
+704,16,M,93,96,99,5,High,4,9,Middle,High School,No,6,86,No
+705,17,M,76,89,94,20,Low,5,2,High,High School,No,5,83,Yes
+706,17,M,81,61,78,8,Medium,6,2,Low,Graduate,Yes,9,93,Yes
+707,18,F,70,61,57,20,High,5,6,Middle,Graduate,No,5,83,No
+708,18,M,57,95,90,11,Medium,1,10,Low,Some College,No,9,97,Yes
+709,16,F,87,96,97,19,Medium,3,2,High,High School,Yes,7,84,No
+710,18,F,57,64,68,20,Medium,1,4,Middle,College,Yes,6,91,No
+711,17,M,99,90,97,15,Low,5,6,High,High School,Yes,6,68,No
+712,17,M,52,68,88,14,Medium,5,5,Low,Graduate,Yes,7,57,Yes
+713,16,F,93,75,95,7,High,6,1,High,Graduate,Yes,8,88,Yes
+714,17,M,52,78,77,7,Low,8,6,High,Some College,Yes,5,82,Yes
+715,17,F,71,71,95,20,High,10,1,Low,Some College,No,5,93,No
+716,17,M,55,89,76,9,High,1,3,High,High School,Yes,6,77,No
+717,17,M,51,70,53,9,Low,4,10,Low,Some College,No,6,86,No
+718,16,F,72,87,64,17,High,10,5,Middle,College,No,6,97,Yes
+719,16,M,93,69,84,14,High,1,10,Low,College,Yes,7,74,Yes
+720,18,F,51,78,86,7,Low,9,5,Low,Some College,No,8,85,Yes
+721,17,M,87,53,50,13,High,7,10,Middle,College,Yes,5,66,Yes
+722,18,F,66,56,52,8,Medium,7,6,Low,College,No,9,73,Yes
+723,16,F,84,77,96,17,High,5,10,Middle,High School,Yes,7,70,No
+724,16,M,83,77,73,17,Medium,7,8,Middle,College,Yes,5,51,Yes
+725,16,F,72,53,76,19,High,2,5,Low,Graduate,Yes,8,80,No
+726,16,M,79,71,89,7,Low,4,1,High,Graduate,Yes,7,93,No
+727,16,M,57,61,85,15,Low,7,5,High,High School,No,5,82,Yes
+728,16,M,71,94,83,6,High,3,3,Middle,Some College,No,7,79,No
+729,16,F,93,52,78,14,Low,2,4,High,High School,No,5,61,Yes
+730,17,F,85,71,73,17,High,10,8,High,Some College,No,5,93,Yes
+731,18,M,54,93,73,15,Low,2,7,Low,Some College,No,8,61,No
+732,16,M,62,51,91,13,Medium,1,5,Middle,Some College,Yes,9,98,Yes
+733,17,F,78,73,53,8,High,5,2,Middle,Some College,Yes,8,73,Yes
+734,17,M,80,83,52,20,Medium,6,6,Low,Some College,Yes,5,73,No
+735,18,M,96,76,83,7,Medium,6,6,High,High School,Yes,7,60,No
+736,16,F,65,90,98,11,High,9,10,Middle,Some College,Yes,8,62,No
+737,18,M,91,50,72,12,Medium,4,10,High,College,No,9,76,No
+738,16,F,79,57,72,15,High,1,6,Middle,College,Yes,5,57,No
+739,17,M,65,72,94,18,Medium,6,9,Middle,Some College,Yes,8,59,No
+740,17,F,61,87,54,6,High,5,8,Middle,College,No,8,57,Yes
+741,17,M,66,55,80,11,High,10,8,Middle,Graduate,No,8,69,Yes
+742,17,M,65,71,90,16,Low,6,1,High,High School,Yes,8,57,Yes
+743,18,F,61,74,55,9,High,3,5,High,High School,Yes,7,58,No
+744,16,M,57,67,86,19,High,2,7,High,Some College,No,9,56,Yes
+745,16,F,69,66,59,15,Medium,6,6,High,Some College,Yes,9,63,No
+746,18,M,52,61,89,9,High,1,5,Low,Graduate,Yes,5,77,Yes
+747,16,F,65,55,56,7,Low,7,8,Middle,Some College,Yes,6,51,No
+748,17,F,79,75,88,9,Medium,7,3,Middle,College,No,7,92,Yes
+749,16,F,94,76,87,16,Medium,10,6,Middle,Graduate,Yes,5,57,No
+750,17,F,72,57,70,6,Low,7,5,Low,College,Yes,5,62,No
+751,18,M,77,68,69,8,Medium,10,8,High,High School,No,8,70,No
+752,16,M,89,91,52,10,Medium,1,4,Middle,College,No,6,96,No
+753,18,F,54,50,100,5,Medium,4,8,High,High School,No,6,77,Yes
+754,16,F,69,78,71,14,Medium,7,10,High,College,Yes,7,84,Yes
+755,17,F,89,94,96,8,Low,9,2,Low,High School,No,6,72,No
+756,18,M,93,98,53,10,Low,5,9,Low,Some College,Yes,5,95,No
+757,16,M,50,84,77,13,Medium,2,9,High,College,No,6,64,No
+758,17,M,79,89,61,18,Medium,7,10,Middle,High School,Yes,6,51,Yes
+759,18,M,70,63,87,15,Low,10,10,Middle,College,No,9,61,No
+760,18,F,69,84,100,20,Low,1,6,Low,Graduate,Yes,5,85,No
+761,16,F,55,97,85,15,Low,7,4,Low,Some College,Yes,6,52,Yes
+762,16,F,71,94,96,17,Medium,6,4,Low,High School,No,6,54,No
+763,16,M,67,69,90,6,Medium,7,6,Low,Graduate,No,8,52,No
+764,17,M,57,98,54,15,High,10,5,Low,College,Yes,6,96,Yes
+765,16,M,88,62,62,11,Low,3,6,Low,Graduate,No,6,68,No
+766,18,F,81,87,72,10,Medium,3,7,Low,College,Yes,9,51,No
+767,18,F,82,98,99,6,Low,7,7,Middle,Some College,No,5,93,Yes
+768,16,M,65,95,79,12,Medium,2,9,Low,Graduate,No,7,86,No
+769,16,F,61,98,86,11,Low,1,8,Low,Some College,Yes,5,66,Yes
+770,18,M,87,57,74,15,Medium,9,6,Middle,High School,No,8,63,No
+771,17,M,83,92,97,9,High,9,6,Middle,College,No,5,77,No
+772,16,F,63,69,76,16,High,7,5,High,College,Yes,6,76,No
+773,16,M,85,82,100,9,Low,7,1,Low,Some College,Yes,8,59,No
+774,18,F,82,75,63,11,Medium,3,9,Low,Some College,No,5,52,No
+775,16,M,72,88,97,13,Medium,10,9,Low,High School,Yes,8,85,Yes
+776,17,F,99,70,96,15,Low,2,9,Low,Graduate,No,7,87,No
+777,18,F,94,98,85,19,Medium,7,8,High,College,No,5,74,No
+778,16,F,51,91,88,13,Low,9,10,Middle,College,Yes,6,71,Yes
+779,18,M,90,92,65,13,Medium,1,3,Middle,High School,Yes,8,97,Yes
+780,16,M,70,90,71,10,Low,4,1,Low,High School,Yes,9,88,No
+781,16,F,51,58,70,14,Medium,6,8,Low,Some College,Yes,8,96,Yes
+782,16,F,76,73,70,10,Low,7,7,Low,Some College,Yes,9,79,No
+783,17,M,58,86,57,7,Medium,10,5,High,Graduate,Yes,6,70,Yes
+784,17,M,50,98,98,5,High,7,10,High,High School,No,7,79,Yes
+785,18,M,60,90,65,20,Medium,10,7,Middle,Graduate,No,9,77,No
+786,16,F,52,66,80,11,Low,2,10,Low,High School,Yes,7,80,Yes
+787,16,M,72,73,91,8,High,4,4,Low,College,No,8,75,No
+788,17,M,75,70,59,5,Medium,5,9,Low,High School,No,6,92,Yes
+789,16,F,53,88,81,19,High,1,10,Low,High School,No,9,71,Yes
+790,17,M,67,90,83,12,Medium,1,2,High,College,No,8,70,Yes
+791,16,M,55,88,58,16,High,10,9,Middle,High School,Yes,5,50,No
+792,18,M,84,62,66,10,Low,3,9,Middle,Graduate,No,8,86,No
+793,16,F,71,60,60,10,Medium,10,5,High,Some College,No,7,62,Yes
+794,16,F,92,95,81,6,Medium,3,1,Low,Some College,Yes,6,70,No
+795,17,F,64,68,59,19,Low,8,7,Middle,Graduate,Yes,6,95,No
+796,16,F,71,60,71,5,High,9,10,Middle,College,Yes,8,58,No
+797,16,F,86,62,66,17,Low,1,10,High,High School,Yes,5,66,Yes
+798,17,F,91,95,53,18,Low,2,4,Low,Graduate,No,7,96,No
+799,18,F,61,94,97,18,High,10,9,Middle,Some College,Yes,8,70,Yes
+800,18,M,96,50,96,6,Low,2,6,Low,Some College,No,8,80,Yes
+801,17,M,98,89,74,8,Medium,4,3,Middle,Graduate,No,6,88,Yes
+802,17,F,91,93,70,6,Medium,2,6,High,Some College,Yes,7,71,Yes
+803,17,M,87,68,86,20,Medium,7,10,Low,Graduate,Yes,5,61,Yes
+804,17,M,67,61,87,5,Low,9,6,High,Some College,Yes,6,55,No
+805,17,F,94,57,98,11,Medium,7,5,Middle,Graduate,Yes,8,65,No
+806,18,M,84,57,50,15,Medium,6,2,High,High School,Yes,6,75,Yes
+807,18,M,79,94,74,15,Medium,10,10,High,High School,Yes,6,54,No
+808,17,M,73,61,100,19,Medium,1,10,High,High School,No,9,58,No
+809,16,M,91,97,85,16,Medium,10,2,Middle,High School,No,6,95,No
+810,17,M,79,82,66,12,Medium,9,7,Low,Some College,No,6,89,No
+811,16,F,63,94,90,10,Low,5,2,High,College,No,7,63,No
+812,17,F,55,75,73,8,Medium,5,6,Low,Graduate,Yes,6,93,No
+813,17,F,52,88,51,18,Medium,6,5,Middle,College,Yes,5,91,No
+814,18,M,65,77,89,10,High,9,4,Low,Some College,No,8,79,Yes
+815,16,F,56,54,64,7,Low,8,7,High,Some College,No,7,75,Yes
+816,16,M,63,57,81,16,Low,8,8,High,College,No,6,94,Yes
+817,18,M,58,74,88,12,Low,8,4,High,College,Yes,5,78,No
+818,18,M,64,76,55,14,Low,1,1,High,Some College,Yes,8,68,No
+819,18,M,70,95,50,18,Medium,1,1,High,Some College,Yes,7,96,Yes
+820,18,F,84,72,96,17,Medium,8,1,High,Graduate,No,5,57,No
+821,16,F,51,79,72,17,High,5,1,Middle,High School,No,6,72,No
+822,16,M,76,94,88,6,High,9,5,Middle,High School,Yes,9,91,Yes
+823,17,F,51,96,66,9,Low,2,4,Middle,Graduate,Yes,9,84,Yes
+824,17,M,84,72,83,5,High,9,9,Low,College,No,7,80,Yes
+825,18,F,67,98,90,10,High,8,3,Low,Some College,No,5,84,No
+826,18,F,63,96,78,6,Low,9,7,Middle,College,Yes,8,81,No
+827,18,M,69,69,58,8,Low,4,8,Low,High School,No,5,54,No
+828,17,F,67,67,62,10,High,1,6,Low,High School,Yes,9,65,Yes
+829,17,M,59,67,55,14,Medium,1,10,High,College,Yes,7,66,Yes
+830,17,F,74,51,55,15,High,5,1,High,High School,No,6,81,No
+831,17,M,51,53,69,12,High,2,8,Low,Some College,No,5,87,Yes
+832,17,M,74,79,52,16,Medium,8,10,Low,Graduate,No,9,81,Yes
+833,17,F,82,82,66,12,Medium,10,3,Middle,College,Yes,8,69,No
+834,17,F,85,85,98,15,Low,5,8,Low,Some College,No,7,97,Yes
+835,18,M,80,67,61,10,Low,5,4,High,Some College,No,6,51,Yes
+836,18,F,63,86,97,8,High,2,8,Low,High School,Yes,5,69,Yes
+837,18,F,50,68,96,12,Medium,7,1,Middle,Some College,Yes,8,96,No
+838,18,M,95,96,94,17,Low,8,3,High,College,No,6,67,No
+839,17,M,65,77,50,12,High,10,6,High,Some College,Yes,9,50,Yes
+840,16,F,95,89,66,14,Medium,1,9,High,Graduate,Yes,9,78,No
+841,17,M,52,69,52,18,High,2,2,High,Some College,Yes,8,78,No
+842,16,M,84,98,75,5,Low,10,1,Low,Some College,No,9,68,No
+843,18,M,90,82,64,20,Low,4,10,Middle,Graduate,No,7,93,Yes
+844,17,F,55,61,85,8,Medium,5,3,Low,Some College,Yes,8,89,No
+845,18,F,74,64,81,8,High,2,4,Low,Some College,Yes,9,55,Yes
+846,17,M,62,90,81,11,Medium,1,5,High,High School,Yes,5,93,Yes
+847,18,F,83,88,53,20,Low,9,3,Middle,College,No,9,88,No
+848,16,M,57,51,67,18,Low,1,10,High,High School,Yes,7,99,Yes
+849,16,F,70,78,98,18,High,4,2,Low,College,Yes,6,95,No
+850,16,M,83,90,68,15,High,2,2,Low,Graduate,No,6,57,No
+851,17,M,53,59,92,11,High,4,7,High,Graduate,Yes,9,73,Yes
+852,16,F,74,51,84,20,Medium,8,9,Low,Graduate,No,6,69,Yes
+853,17,M,64,60,89,17,High,8,10,Low,College,No,9,63,No
+854,16,F,53,62,63,15,High,9,2,High,College,No,7,54,No
+855,16,F,94,59,82,19,Low,5,7,Low,College,Yes,6,90,No
+856,17,M,61,63,63,12,Low,7,7,Middle,Graduate,Yes,5,89,No
+857,17,M,81,67,83,20,High,3,7,High,College,No,9,83,Yes
+858,16,F,81,58,53,15,High,10,3,Middle,Some College,Yes,6,65,Yes
+859,17,M,77,88,73,9,Low,4,7,Low,High School,No,7,94,Yes
+860,16,M,62,77,78,11,High,10,1,Low,Graduate,Yes,7,56,No
+861,17,M,80,52,68,12,Medium,9,10,High,High School,No,5,65,Yes
+862,18,M,63,69,55,20,Medium,10,1,Low,Some College,No,7,56,Yes
+863,18,M,69,55,82,19,Medium,10,5,High,College,Yes,7,76,Yes
+864,18,F,67,76,98,13,High,1,2,High,High School,Yes,6,63,Yes
+865,18,F,78,51,89,7,Low,2,9,High,Some College,Yes,9,63,No
+866,18,M,55,78,68,7,High,5,7,High,Some College,Yes,8,93,Yes
+867,16,M,81,87,50,8,High,3,4,High,High School,No,7,82,Yes
+868,18,M,78,52,54,9,Low,2,4,Middle,Graduate,No,7,82,Yes
+869,18,F,92,65,76,14,Low,1,2,High,High School,Yes,8,93,Yes
+870,18,M,51,79,65,5,Low,10,5,Middle,Graduate,Yes,7,69,No
+871,18,F,72,89,55,19,Medium,3,4,Low,College,No,6,96,No
+872,17,F,68,51,89,19,High,1,1,High,Graduate,Yes,6,85,Yes
+873,16,F,80,66,62,11,Low,1,8,Low,College,Yes,8,56,No
+874,18,M,54,90,97,13,High,1,3,High,High School,Yes,7,81,No
+875,18,F,68,61,84,12,Medium,8,6,Middle,College,Yes,7,97,No
+876,18,M,83,84,68,19,Medium,3,4,Middle,Some College,No,9,52,No
+877,16,F,59,92,61,19,Low,1,9,Middle,College,No,7,88,Yes
+878,17,M,74,50,65,9,Low,7,7,Low,Graduate,Yes,6,78,No
+879,16,F,51,94,92,18,High,10,9,High,Graduate,No,5,73,No
+880,17,M,60,64,59,18,Low,3,10,Low,Graduate,Yes,5,71,Yes
+881,18,F,99,75,74,8,High,8,3,Middle,College,Yes,5,55,Yes
+882,18,M,80,86,69,16,Low,4,1,Low,Graduate,Yes,5,97,Yes
+883,16,M,64,70,80,11,High,4,5,Middle,Graduate,No,7,73,Yes
+884,16,M,58,98,53,9,High,5,3,Middle,Some College,No,7,89,No
+885,17,M,72,80,93,11,High,6,6,Middle,College,No,9,72,Yes
+886,17,F,68,74,72,16,High,7,8,High,Some College,No,7,87,No
+887,16,F,58,72,51,5,Medium,4,4,High,Graduate,No,5,59,No
+888,17,M,84,73,71,5,High,8,5,Middle,Graduate,Yes,8,65,Yes
+889,16,F,70,87,100,20,Low,6,5,Low,Graduate,Yes,8,60,Yes
+890,17,M,58,77,86,14,Medium,1,4,Low,College,No,6,81,No
+891,16,M,77,70,57,18,Medium,1,4,High,High School,No,6,94,No
+892,16,F,95,92,56,17,High,9,4,Middle,Graduate,No,7,55,Yes
+893,16,M,56,67,63,7,Medium,10,4,Low,Graduate,Yes,8,73,Yes
+894,17,M,65,85,52,18,High,6,4,Middle,Graduate,No,5,82,Yes
+895,17,F,65,84,99,15,Low,10,5,Low,Graduate,Yes,5,61,No
+896,17,M,82,94,65,6,High,8,2,High,College,Yes,5,76,No
+897,16,M,53,58,68,6,Medium,7,2,Middle,High School,No,7,87,Yes
+898,17,M,53,87,100,11,Low,6,9,Middle,High School,Yes,7,67,No
+899,17,M,88,79,67,16,High,4,2,Low,High School,Yes,9,94,Yes
+900,16,F,89,93,65,14,Low,7,6,Low,Graduate,No,5,88,No
+901,18,F,66,83,57,6,Low,9,2,Low,Graduate,Yes,5,62,No
+902,16,F,86,81,82,15,Medium,10,5,Middle,High School,No,7,89,Yes
+903,17,M,88,52,98,8,Low,10,4,High,High School,Yes,7,79,Yes
+904,16,M,78,52,61,6,Medium,7,7,High,Graduate,No,9,98,Yes
+905,18,F,85,77,60,10,Low,1,7,Low,Graduate,No,9,90,No
+906,16,M,87,93,54,12,High,10,6,High,Some College,Yes,6,62,No
+907,17,M,88,64,76,14,Low,9,10,Low,Some College,No,8,83,Yes
+908,18,M,99,90,61,20,High,4,5,High,Some College,Yes,5,85,No
+909,17,M,86,72,66,8,High,3,1,Middle,High School,Yes,5,79,Yes
+910,18,F,84,89,55,19,Low,4,3,Low,College,No,9,74,No
+911,18,F,56,60,82,9,High,4,9,High,Graduate,Yes,9,51,Yes
+912,16,F,76,97,54,8,Low,10,1,Middle,Some College,No,6,85,No
+913,16,M,77,81,77,7,Low,2,5,High,College,Yes,8,67,No
+914,17,F,71,85,63,9,High,1,2,Middle,Graduate,Yes,6,54,No
+915,16,F,63,82,54,18,High,10,4,Middle,College,No,8,68,No
+916,16,M,56,73,82,13,Medium,1,1,High,High School,Yes,5,91,Yes
+917,18,M,86,88,99,12,High,8,3,High,High School,Yes,6,67,No
+918,16,F,71,83,97,12,Medium,2,10,Middle,High School,Yes,9,81,Yes
+919,18,F,54,77,90,12,High,10,7,Middle,Some College,Yes,6,70,Yes
+920,18,F,51,86,68,16,Low,5,10,Middle,Graduate,Yes,6,59,Yes
+921,18,F,76,56,71,12,High,4,3,Low,High School,Yes,5,86,Yes
+922,17,M,70,53,54,11,Low,8,4,Middle,Some College,Yes,9,98,No
+923,17,F,87,86,51,12,Low,2,2,Low,Some College,Yes,9,71,Yes
+924,17,F,64,50,79,15,Low,10,3,Middle,Some College,No,7,62,No
+925,18,M,70,50,96,18,Medium,9,9,Low,Some College,Yes,7,66,No
+926,17,F,59,96,88,20,High,7,3,Middle,High School,Yes,7,58,No
+927,17,M,72,69,53,12,Low,7,5,Middle,Some College,No,5,73,No
+928,16,M,88,68,82,17,Low,1,2,Middle,High School,No,6,93,Yes
+929,17,M,54,78,62,18,Medium,2,4,High,High School,No,9,63,No
+930,17,F,50,59,69,12,High,4,7,High,Some College,Yes,9,95,Yes
+931,18,F,62,67,56,16,High,4,7,Middle,High School,No,6,57,No
+932,18,M,70,77,64,14,Medium,3,3,Low,Graduate,No,9,86,No
+933,18,F,75,84,72,11,Medium,7,5,Low,Graduate,Yes,6,68,Yes
+934,18,F,99,92,63,16,High,8,1,Middle,College,Yes,5,77,No
+935,18,M,94,96,72,5,Medium,2,10,High,Graduate,No,5,95,No
+936,18,M,70,80,68,8,High,4,10,Low,High School,No,5,90,No
+937,17,F,67,76,78,17,High,3,10,High,High School,Yes,6,79,No
+938,18,M,86,60,69,17,Low,2,1,Low,Graduate,Yes,6,56,No
+939,18,F,94,98,78,20,Low,6,5,Middle,Some College,Yes,8,75,Yes
+940,16,F,81,98,73,8,High,4,10,High,Some College,Yes,9,89,No
+941,17,F,85,87,67,9,High,6,9,Low,High School,Yes,9,95,No
+942,17,F,66,54,59,14,High,2,1,Middle,Some College,No,8,95,Yes
+943,17,M,84,57,90,10,High,4,1,Middle,College,Yes,8,60,No
+944,18,M,98,83,57,8,High,6,4,Middle,College,Yes,5,63,Yes
+945,18,M,60,97,75,19,High,5,4,High,Graduate,Yes,8,70,No
+946,18,M,70,61,78,6,Medium,3,2,High,Graduate,Yes,6,57,No
+947,16,F,75,87,59,20,High,8,9,Middle,Some College,Yes,7,52,Yes
+948,18,F,53,50,66,10,Medium,7,9,High,High School,No,6,77,No
+949,16,M,83,80,51,19,Medium,3,2,Low,Graduate,Yes,8,78,No
+950,17,F,97,53,55,12,High,6,9,Middle,College,No,9,72,Yes
+951,18,F,67,98,54,19,High,4,6,Middle,Graduate,Yes,6,67,Yes
+952,16,F,89,94,77,12,Medium,5,8,High,Graduate,No,9,84,No
+953,16,M,84,99,90,11,Medium,5,10,Middle,College,No,6,62,Yes
+954,18,M,90,54,54,10,High,7,4,Low,High School,Yes,9,61,No
+955,17,M,78,79,67,6,High,5,2,High,Graduate,Yes,6,96,Yes
+956,17,F,78,73,75,19,Medium,3,2,High,Graduate,Yes,9,99,No
+957,17,M,87,52,69,11,Medium,10,9,Middle,Graduate,Yes,7,54,Yes
+958,16,M,91,60,90,15,Medium,5,1,Middle,Some College,Yes,5,88,Yes
+959,16,M,70,94,98,16,Low,7,7,Middle,Graduate,No,6,60,Yes
+960,16,M,91,53,76,18,Medium,5,3,High,College,Yes,7,60,Yes
+961,16,M,62,75,98,20,Low,5,3,Middle,High School,Yes,5,96,Yes
+962,17,M,98,76,61,18,High,9,2,Low,High School,No,6,91,Yes
+963,18,F,90,95,56,9,High,3,10,Middle,College,Yes,7,96,Yes
+964,16,F,66,92,52,20,Medium,6,6,Middle,Some College,No,7,80,Yes
+965,16,M,58,76,59,10,High,1,10,High,College,Yes,7,80,Yes
+966,17,M,90,91,83,14,High,10,2,Middle,High School,No,8,62,No
+967,18,F,50,99,74,12,High,5,10,High,College,Yes,9,63,Yes
+968,18,F,51,55,84,20,High,8,4,Middle,Some College,No,5,98,No
+969,17,M,97,64,65,18,Low,5,10,Low,High School,No,9,94,Yes
+970,17,M,78,79,51,12,Low,9,9,Low,Some College,Yes,9,91,No
+971,18,M,82,91,73,7,Medium,6,9,High,College,Yes,9,74,No
+972,16,M,59,86,59,16,Medium,8,6,High,Graduate,Yes,7,82,Yes
+973,18,F,99,86,87,20,Medium,10,4,Middle,College,No,9,82,Yes
+974,17,M,89,91,71,16,High,8,7,Middle,Some College,No,8,64,No
+975,16,M,70,86,75,18,High,3,1,Low,College,No,6,65,No
+976,16,M,77,84,92,11,Low,7,4,Middle,Graduate,Yes,7,93,Yes
+977,17,M,60,72,88,5,Low,7,5,Low,Some College,Yes,5,87,Yes
+978,17,F,83,55,76,5,Medium,10,8,High,College,No,6,55,Yes
+979,17,F,57,53,78,11,Low,6,2,Middle,Some College,Yes,6,93,No
+980,18,F,71,67,96,19,Low,7,5,High,Some College,No,6,74,Yes
+981,18,M,57,58,87,19,Low,2,6,Middle,High School,Yes,9,64,Yes
+982,16,M,98,98,69,14,Low,9,5,Low,High School,Yes,9,53,Yes
+983,17,F,64,78,76,13,Low,10,9,High,Some College,No,7,53,Yes
+984,16,M,66,62,90,11,Medium,10,10,High,College,Yes,9,79,Yes
+985,16,M,72,96,69,14,Medium,1,1,Middle,College,Yes,9,83,No
+986,16,F,73,66,93,9,Low,1,3,High,College,Yes,9,76,No
+987,16,F,94,94,68,12,Medium,3,2,Low,Graduate,Yes,7,80,Yes
+988,17,F,68,81,69,6,High,3,3,High,Some College,Yes,7,81,Yes
+989,16,F,54,97,84,13,Low,1,10,High,Some College,No,8,93,No
+990,17,M,81,71,96,10,High,7,9,Middle,Graduate,Yes,8,88,Yes
+991,17,M,93,53,51,17,Medium,4,9,High,Some College,No,8,58,No
+992,18,F,50,54,79,13,Medium,10,10,Middle,Some College,Yes,8,90,Yes
+993,17,M,72,86,83,20,High,2,2,Middle,Graduate,Yes,6,57,No
+994,18,F,86,90,71,6,Medium,10,3,High,High School,No,6,63,No
+995,17,F,57,98,52,7,Low,5,4,Low,Some College,No,8,82,Yes
+996,17,M,62,62,55,16,High,6,9,Middle,Graduate,Yes,8,72,No
+997,17,F,57,83,64,12,Low,9,3,High,College,Yes,5,70,Yes
+998,18,M,72,94,76,5,High,4,7,Middle,High School,No,6,61,No
+999,18,M,92,71,59,19,Medium,2,3,Low,College,No,5,51,Yes
+1000,16,M,50,72,58,14,High,5,7,Low,Some College,No,5,62,Yes
